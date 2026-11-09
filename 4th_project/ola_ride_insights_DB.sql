@@ -8,6 +8,9 @@ show tables;
 select * from ola_dataset
 limit 10 ;
 
+ALTER TABLE ola_dataset
+RENAME COLUMN `ï»¿Date` TO `Date`;
+
 
 Select Count(*) as Total_records from ola_dataset;
 

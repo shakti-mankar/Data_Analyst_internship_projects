@@ -1,0 +1,64 @@
+
+/* Main application */
+.stApp {
+    background-color: #0E1117;
+}
+
+/* Main heading */
+h1 {
+    color: #FFFFFF;
+    font-weight: 700;
+}
+
+/* Section headings */
+h2, h3 {
+    color: #16A6A1;
+    font-weight: 600;
+}
+
+/* Metric cards */
+[data-testid="stMetric"] {
+    background: linear-gradient(135deg, #1B2430, #202E3C);
+    padding: 20px;
+    border-radius: 12px;
+    border: 1px solid #344454;
+}
+
+[data-testid="stMetricLabel"] {
+    color: #AAB8C5;
+}
+
+[data-testid="stMetricValue"] {
+    color: #16C7B7;
+    font-weight: 700;
+}
+
+/* Sidebar */
+[data-testid="stSidebar"] {
+    background-color: #151D28;
+}
+
+/* Buttons */
+.stButton > button {
+    background-color: #16A6A1;
+    color: white;
+    border-radius: 8px;
+    border: none;
+    font-weight: 600;
+}
+
+.stButton > button:hover {
+    background-color: #11877F;
+    color: white;
+}
+
+/* Dataframes */
+[data-testid="stDataFrame"] {
+    border: 1px solid #344454;
+    border-radius: 10px;
+}
+
+/* Dividers */
+hr {
+    border-color: #344454;
+}
